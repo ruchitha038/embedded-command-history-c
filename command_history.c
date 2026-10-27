@@ -48,7 +48,12 @@ Commands such as `LED_ON`, `LED_OFF`, `MOTOR_START`, and `MOTOR_STOP` can be sto
 7. Repeat the process until the user selects Exit.
 8. Stop the program.
 
-## 6. Sample Output
+## 6. How to Compile and Run
+
+gcc command_history.c -o command_history.exe
+command_history.exe
+
+## 7. Sample Output
 
 ```text
 ===== EMBEDDED COMMAND HISTORY =====
@@ -90,7 +95,7 @@ Enter your choice: 0
 Exiting program...
 ```
 
-## 7. Applications
+## 8. Applications
 
 - Embedded-system command management.
 - Microcontroller command-line interfaces.
@@ -98,7 +103,7 @@ Exiting program...
 - Basic device-control simulations.
 - Learning undo and history mechanisms using stacks.
 
-## 8. Advantages
+## 9. Advantages
 
 - Simple and easy to implement.
 - Helps understand stack operations.
@@ -106,13 +111,13 @@ Exiting program...
 - Handles full-stack and empty-stack conditions.
 - Can be extended for microcontroller-based applications.
 
-## 9. Limitations
+## 10. Limitations
 
 - Stores only a fixed number of commands.
 - Command history is lost when the program terminates.
 - Does not control actual hardware in its current form.
 - Removing a command does not automatically reverse a physical device action.
 
-## 10. Conclusion
+## 11. Conclusion
 
 The Embedded Command History System demonstrates the practical application of a stack in C programming. Using push, pop, peek, display, search, and clear operations, the project explains how commands can be stored and managed according to the LIFO principle. It provides a foundation for developing more advanced embedded-system command-management applications.
